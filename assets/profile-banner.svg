@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="480" viewBox="0 0 1600 480" role="img">
+  <title>OMNIA EYE — Intelligence before consensus.</title>
+  <defs>
+    <linearGradient id="softEdge" gradientUnits="userSpaceOnUse" x1="791" x2="1570"><stop offset="0" stop-color="black"/><stop offset="0.10" stop-color="white"/><stop offset="0.90" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+    <linearGradient id="softTop" gradientUnits="userSpaceOnUse" x1="0" x2="0" y1="25" y2="454"><stop offset="0" stop-color="black"/><stop offset="0.10" stop-color="white"/><stop offset="0.90" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+    <mask id="edge" maskUnits="userSpaceOnUse" x="791" y="25" width="779" height="429"><rect x="791" y="25" width="779" height="429" fill="url(#softEdge)"/></mask>
+    <mask id="top" maskUnits="userSpaceOnUse" x="791" y="25" width="779" height="429"><rect x="791" y="25" width="779" height="429" fill="url(#softTop)"/></mask>
+  </defs>
+  <rect width="1600" height="480" fill="#0a171d"/>
+  <g transform="translate(72 61) scale(1.18)" fill="none" stroke="#eff6f2" stroke-width="2.3" stroke-linecap="square" stroke-linejoin="miter"><path d="M3 5 6 2h10l3 3v16l-3 3H6l-3-3Z M25 24V2l9 13 9-13v22 M49 24V2l17 22V2 M72 2v22 M78 24l9-22 9 22 M82 16h10"/><path d="M0 0h15 M0 0v22h15 M0 11h12" transform="translate(108 2)"/><path d="M129 2l8 11 8-11 M137 13v11"/><path d="M0 0h15 M0 0v22h15 M0 11h12" transform="translate(166 2) scale(-1 1)"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="400" fill="#f0f5f3">
+    <text x="70" y="227" font-size="65">Intelligence before</text>
+    <text x="70" y="305" font-size="65">consensus.</text>
+  </g>
+  <g mask="url(#edge)"><g mask="url(#top)">
+    <svg x="791" y="25" width="779" height="429" viewBox="255 120 1030 567" preserveAspectRatio="xMidYMid meet">
+      <image width="1536" height="1024" xlink:href="eye-profile-original.png"/>
+    </svg>
+  </g></g>
+  </svg>

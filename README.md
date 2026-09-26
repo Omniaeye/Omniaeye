@@ -1,52 +1,44 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.png">
-  <img src="assets/profile-banner-dark.png" alt="OMNIA EYE — Intelligence before consensus. News, market data and structured decisions." width="100%">
-</picture>
+<a href="https://www.eyeomnia.com/">
+  <img src="assets/profile-banner.png" alt="OMNIA EYE — Intelligence before consensus." width="100%">
+</a>
 
 <p align="center">
   <a href="https://www.eyeomnia.com/">Website</a> &nbsp;·&nbsp;
   <a href="https://www.eyeomnia.com/docs/">Documentation</a> &nbsp;·&nbsp;
-  <a href="https://x.com/Omniaeye">Follow on X</a>
+  <a href="https://x.com/Omniaeye">X</a>
 </p>
 
-We build software that connects public information, market observations and structured AI decisions. Explore the decision engine, applications and infrastructure behind **OMNIA EYE**.
+**OMNIA EYE develops software for market research.** Our platform brings company news, public conversations and on-chain activity into one workspace.
 
-### Three repositories. One vision.
+### Software
 
-| Project | What it does | Explore |
-| :--- | :--- | :--- |
-| **[JEV/LAYA](https://github.com/Omniaeye/omnia-laya)** | Local AI with typed answers, evidence lineage and durable replay. | [Quickstart](https://github.com/Omniaeye/omnia-laya#quickstart) · [Architecture](https://github.com/Omniaeye/omnia-laya#the-decision-path) |
-| **[OMNIA News](https://github.com/Omniaeye/omnia-news)** | Evaluate source content, filter noise and retain the evidence behind feed decisions. | [Quickstart](https://github.com/Omniaeye/omnia-news#quickstart) · [Parameters](https://github.com/Omniaeye/omnia-news/blob/main/docs/PARAMETERS.md) |
-| **[OMNIA Trading](https://github.com/Omniaeye/omnia-trading)** | Assess market, holder, liquidity and risk observations through explicit rules. | [Quickstart](https://github.com/Omniaeye/omnia-trading#quickstart) · [Parameters](https://github.com/Omniaeye/omnia-trading/blob/main/docs/PARAMETERS.md) |
+#### [JEV/LAYA](https://github.com/Omniaeye/omnia-laya)
 
-### Built around evidence
+Local AI for classification and scoring. Applications define the questions and accepted answer types. The engine validates the answers and records each decision for later inspection and replay.
 
-**Preserve the source.** Keep identity, authorship, observation time and evidence references with the data.
+[Get started](https://github.com/Omniaeye/omnia-laya#quickstart) · [Architecture](https://github.com/Omniaeye/omnia-laya#the-decision-path)
 
-**Make decisions inspectable.** Record the inputs, criteria and policy behind each assessment.
+#### [OMNIA News](https://github.com/Omniaeye/omnia-news)
 
-**Keep responsibilities clear.** Collection, assessment, publication and execution have explicit boundaries.
+Decide what belongs in a news feed. Evaluate posts, articles and GitHub updates against a configurable publication policy. Each record receives a **keep**, **suppress** or **review** decision, with the original author and context attached.
 
-### Explore the foundation
+[Get started](https://github.com/Omniaeye/omnia-news#quickstart) · [Parameters](https://github.com/Omniaeye/omnia-news/blob/main/docs/PARAMETERS.md)
 
-- **[Data Stream](https://github.com/Omniaeye/data-stream-multichain)** — Multichain observations, token identity and visual context.
-- **[Frontend Design](https://github.com/Omniaeye/frontend-design)** — Interfaces, motion and interaction design.
+#### [OMNIA Trading](https://github.com/Omniaeye/omnia-trading)
 
-<details>
-<summary><strong>Architecture and engineering</strong></summary>
+Assess price, volume, liquidity, holder concentration and token risk. A **102-field input catalog** defines how observations are checked, with configurable thresholds and asset identification for **Robinhood Chain, BSC and Solana**.
 
-- [JEV/LAYA research foundations](https://github.com/Omniaeye/omnia-laya#research)
-- [News architecture](https://github.com/Omniaeye/omnia-news/blob/main/docs/ARCHITECTURE.md) and [operations](https://github.com/Omniaeye/omnia-news/blob/main/docs/OPERATIONS.md)
-- [Trading operations](https://github.com/Omniaeye/omnia-trading/blob/main/docs/OPERATIONS.md) and [parameter catalog](https://github.com/Omniaeye/omnia-trading/blob/main/docs/PARAMETERS.md)
-- [News checks](https://github.com/Omniaeye/omnia-news/actions/workflows/checks.yml) · [Trading checks](https://github.com/Omniaeye/omnia-trading/actions/workflows/checks.yml) · [JEV/LAYA checks](https://github.com/Omniaeye/omnia-laya/actions/workflows/omnia.yml)
+[Get started](https://github.com/Omniaeye/omnia-trading#quickstart) · [Parameters](https://github.com/Omniaeye/omnia-trading/blob/main/docs/PARAMETERS.md)
 
-JEV/LAYA is OMNIA EYE's independent integration fork of [Laya](https://github.com/NandhaKishorM/laya). Original upstream attribution is preserved in the repository.
+### Data and interfaces
 
-</details>
+| Repository | Focus |
+| :--- | :--- |
+| [**Data Stream**](https://github.com/Omniaeye/data-stream-multichain) | Multichain token observations and interactive data visualization. |
+| [**Frontend Design**](https://github.com/Omniaeye/frontend-design) | OMNIA EYE interface design, motion and interaction. |
 
 ---
 
-**Explore the code. Follow the development.**
+<sub>JEV/LAYA is OMNIA EYE's integration fork of <a href="https://github.com/NandhaKishorM/laya">Laya</a>. Upstream authorship and license notices are retained.</sub>
 
-© 2026 OMNIA EYE.
+<sub>© 2026 OMNIA EYE.</sub>
