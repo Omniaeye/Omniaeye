@@ -39,6 +39,4 @@ Assess price, volume, liquidity, holder concentration and token risk. A **102-fi
 
 ---
 
-<sub>JEV/LAYA is OMNIA EYE's integration fork of <a href="https://github.com/NandhaKishorM/laya">Laya</a>. Upstream authorship and license notices are retained.</sub>
-
 <sub>© 2026 OMNIA EYE.</sub>
